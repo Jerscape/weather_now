@@ -1,5 +1,11 @@
 # React + Vite
 
+This is my first attempt to build a React App using Vite. 
+
+It is a weather app that currently uses the open meteo API for data. 
+
+====template info=====
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
