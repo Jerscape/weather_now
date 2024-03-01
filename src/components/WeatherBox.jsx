@@ -30,16 +30,20 @@ const WeatherBox = () => {
     fetchCurrentWeather(API_KEY)
   }, [])
 
-
-
-  return <>
-  <div>
-      <h1>I am the weather box!</h1>
-      <p>Temperature: {weather.hourly.temperature_2m}</p>
-      <p>Relative Humidity: {weather.hourly.relative_humidity_2m}</p>
-      {/* <p>Temperature: {weather.hourly.temperature_2m}</p> */}
+return (
+    <div>
+      <h2>I am the weather box! Current Conditions for hardcoded lat and long (Thunder Bay)</h2>
+      {weather ? (
+        <>
+          <p>Temperature: {weather.hourly.temperature_2m[0]}c</p>
+          <p>Relative Humidity: {weather.hourly.relative_humidity_2m[0]}%</p>
+         
+        </>
+      ) : (
+        <p>Loading...</p>
+      )}
     </div>
-  </>
+  );
 }
 
 export default WeatherBox
