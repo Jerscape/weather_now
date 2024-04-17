@@ -2,7 +2,9 @@
 
 This is my first attempt to build a React App using Vite. 
 
-It is a weather app that currently uses the open meteo API for data. 
+It is a weather app that currently uses the open weather map API for data. 
+
+To launch run "npm dev" 
 
 ====template info=====
 
