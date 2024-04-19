@@ -10,7 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 library.add(fas);
 
 
-
 import WeatherBox from './components/WeatherBox'
 
 function App() {
